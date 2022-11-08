@@ -353,6 +353,10 @@ a {
         text-align: center;
       }
 
+      .employee-role{
+        font-weight: bold;
+      }
+
       .employee-name{
         color: var(--main-color);
         text-transform: uppercase;
@@ -559,6 +563,14 @@ a {
           padding: 1.5rem;
           font-size: 2rem;
   }
+
+    .square {
+      width: 90px;
+      height: 90px;
+      left: 15px;
+      top: 60px;
+      opacity: 70%;
+    }
 
   /* navbar */
       #navbar {
