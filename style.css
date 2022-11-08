@@ -97,8 +97,8 @@ a {
         background-color: var(--main-color);
         position: absolute;
         z-index: 1;
-        left: 20px;
-        top: 40px;
+        left: 50px;
+        top: 70px;
          }
       
       .dots{
