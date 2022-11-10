@@ -90,17 +90,7 @@ a {
       font-size: 1.5rem;
       }
 
-      .square {
-        display: block;
-        width: 150px;
-        height: 150px;
-        background-color: var(--main-color);
-        position: absolute;
-        z-index: 1;
-        left: 50px;
-        top: 70px;
-         }
-      
+           
       .dots{
         display: flex;
         gap: 2rem;
