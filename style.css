@@ -125,7 +125,7 @@ a {
       .text-container {
         flex: 2 1 0;
         display: flex;
-        gap: 2rem;
+        gap: 0rem;
         flex-direction:column ;
         justify-content: center;
         text-align: right;
@@ -140,6 +140,7 @@ a {
       .section-title{
         color: var(--secundary-text-color);
         font-size: 2rem;
+     
       }
 
       .btn{
