@@ -54,6 +54,7 @@ a {
   #brand{
     background-color: var(--main-color);
     padding: 1rem;
+    font-size: 1.5rem;
   }
   #navbar{
     display: flex;
@@ -80,7 +81,7 @@ a {
   }
 
   .banner h2{
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1.2rem;
     z-index: 2;
     position: relative;
@@ -541,9 +542,32 @@ a {
         padding-bottom: 1rem;
         border-bottom: 1px solid var(--main-color);
       }
+
+      
       
     /* Responsivo */
-        @media (max-width: 450px) {
+
+    @media (max-width: 900px) {
+      #brand{
+        background-color: var(--main-color);
+        padding: 1rem;
+        font-size: 1.5rem;
+      
+      }
+
+      .banner h2{
+        font-size: 3.5rem;
+       
+      }
+
+      #navbar a{
+        padding: .5rem;
+      }
+    
+     }
+
+
+        @media (max-width: 600px) {
   /* Geral */
         body {
           overflow-x: hidden;
@@ -553,6 +577,12 @@ a {
         i {
           padding: 1.5rem;
           font-size: 2rem;
+  }
+
+  #brand{
+    background-color: var(--main-color);
+    padding: 1rem;
+    font-size: 1.5rem;
   }
 
     .square {
