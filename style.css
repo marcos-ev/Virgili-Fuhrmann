@@ -6,6 +6,7 @@
   --secundary-color: #868686;
   --tertiary-color: #eff3f4;
   --secundary-bg-color:#5c1011;
+  --brand-new-color: #00004e;
 }
 *{
   font-family: "Lato";
@@ -36,7 +37,7 @@ a {
   /*cabecalho e banner*/
   #header{
     min-height: 90vh;
-    background-image: url(./img/main_banner4.png);
+    background-image: url(./img/banner2.webp);
     background-size: cover;
     background-position: center;
     color: var(--primary-text-color);
@@ -54,7 +55,11 @@ a {
   #brand{
     background-color: var(--main-color);
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+  }
+
+  #brand span{
+    font-size: 1.3rem;
   }
   #navbar{
     display: flex;
@@ -81,14 +86,14 @@ a {
   }
 
   .banner h2{
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 1.2rem;
     z-index: 2;
     position: relative;
     }
     
     .banner p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       }
 
            
@@ -555,6 +560,7 @@ a {
       
       }
 
+      
       .banner h2{
         font-size: 3.5rem;
        
@@ -697,7 +703,8 @@ a {
         align-items: center;
         right: 50%;
       }
-    
+
+        
       .footer-brand {
         text-align: center;
       }
