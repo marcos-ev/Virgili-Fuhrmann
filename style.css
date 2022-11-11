@@ -8,6 +8,15 @@
   --secundary-bg-color:#5c1011;
   --brand-new-color: #00004e;
 }
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+  
+}
+
 *{
   font-family: "Lato";
   padding: 0;
@@ -120,15 +129,16 @@ a {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
+        text-align: center;
       }
 
-      .text-container {
+     .text-container {
         flex: 2 1 0;
         display: flex;
-        gap: 0rem;
+        gap: 2rem;
         flex-direction:column ;
         justify-content: center;
-        text-align: right;
+        text-align: center;
       }
       
       .section-subtitle{
@@ -140,7 +150,6 @@ a {
       .section-title{
         color: var(--secundary-text-color);
         font-size: 2rem;
-     
       }
 
       .btn{
@@ -373,7 +382,7 @@ a {
 
       #contact-information{
         position: relative;
-        text-align:left;
+        text-align:center;
         padding: 3rem;
         flex: 1 1 0;
       }
@@ -384,11 +393,13 @@ a {
       }
 
       #contact-information i{
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         background-color: var(--primary-text-color);
         color: var(--main-color);
+        font-size: 2rem;
+        padding: 1rem;
       }
 
       #contact-information form{
@@ -558,22 +569,33 @@ a {
         background-color: var(--main-color);
         padding: 1rem;
         font-size: 1.5rem;
-      
+       }
+
+       .image-container{
+        margin-top: 2rem;
+       }
+
+      .contact-info,
+      .links-container {
+        width: 100%;
       }
 
-      
+      #contact-information{
+        position: relative;
+        text-align:center;
+        padding: 3rem;
+        flex: 1 1 0;
+      display: flex;
+      }
+         
       .banner h2{
         font-size: 3.5rem;
-       
-      }
+        }
 
       #navbar a{
         padding: .5rem;
-      }
-    
+      }   
      }
-
-
         @media (max-width: 600px) {
   /* Geral */
         body {
@@ -705,7 +727,8 @@ a {
         right: 50%;
       }
 
-        
+    
+    
       .footer-brand {
         text-align: center;
       }
